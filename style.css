@@ -1,0 +1,321 @@
+body {
+    font-family: Calibri;
+}
+
+title0 {
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 2730px;
+    top: 0;
+    left: 0;
+    font-size: 56px;
+    font-weight: 1000;
+}
+
+container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 2730px;
+    height: 1258px;
+}
+
+info {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top: 274px;
+    left: 16px;
+    width: 2580px;
+    height: 180px;
+}
+
+info>div {
+    display: flex;
+    align-items: center;
+}
+
+info>div>div {
+    display: flex;
+    align-items: start;
+    padding: 8px;
+}
+
+info>div>div>div {
+    display: inline-block;
+}
+
+info>div>div>space {
+    display: inline-block;
+    width: 32px;
+}
+
+info>div>div>div>div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+info>div>div>div>div>div {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-right: 4px;
+}
+
+info>div>div>div>div>img {
+    margin-right: 4px;
+}
+
+color {
+    margin-right: 4px;
+    font-weight: 1000;
+}
+
+element {
+    position: absolute;
+    display: flex;
+    width: 130px;
+    height: 130px;
+    padding: 4px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+guide {
+    position: absolute;
+    display: flex;
+    width: 130px;
+    height: 130px;
+    padding: 4px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: end;
+    font-size: 24px;
+    font-weight: 1000;
+}
+
+guide.description {
+    width: 260px;
+    height: 130px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: start;
+    padding: 0px;
+}
+
+guide.period {
+    justify-content: start;
+    align-items: center;
+    padding-left: 16px;
+}
+
+description {
+    position: absolute;
+    display: flex;
+    width: 2580px;
+    box-sizing: border-box;
+    left: 16px;
+    top: 145px;
+    justify-content: center;
+    font-size: 12px;
+}
+
+description>element {
+    position: static;
+}
+
+description>div>div {
+    text-align: right;
+}
+
+description>div.right>div {
+    text-align: left;
+}
+
+row {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+row.header {
+    align-items: center;
+    font-size: 18px;
+    font-weight: 1000;
+}
+
+row.name {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 1000;
+}
+
+row.footer {
+    align-items: center;
+    font-size: 14px;
+}
+
+row>div.right {
+    text-align: right;
+}
+
+symbol {
+    font-size: 44px;
+    font-weight: 1000;
+    height: 48px;
+}
+
+appearance {
+    text-align: center;
+    width: 14px;
+    height: 14px;
+    border: 1px solid black;
+    margin: 0px 1px 0px 0px;
+}
+
+appearance.filler {
+    width: 16px;
+    height: 16px;
+    border: none;
+    margin: 0px 0px 0px 1px;
+}
+
+special0 {
+    position: absolute;
+    display: block;
+    top: 409px;
+    left: 906px;
+    width: max-content;
+}
+
+special1 {
+    position: absolute;
+    display: block;
+    top: 514px;
+    left: 1193px;
+    width: 355px;
+    height: 12px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    box-sizing: border-box;
+}
+
+div.special1 {
+    padding: 0px 4px 0px 4px;
+    background-color: #ffffff;
+}
+
+special2 {
+    position: absolute;
+    display: block;
+    top: 457px;
+    left: 548px;
+    width: 1258px;
+    height: 68px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    box-sizing: border-box;
+}
+
+special3 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 1290px;
+    top: 442px;
+    left: 532px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 1000;
+}
+
+special3>div {
+    background-color: #ffffff;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+special2.s {
+    top: 204px;
+    left: 32px;
+    width: 226px;
+    height: 64px;
+}
+
+special3.s {
+    top: 188px;
+    left: 32px;
+    width: 226px;
+}
+
+special2.p {
+    top: 75px;
+    left: 1838px;
+    width: 742px;
+    height: 193px;
+}
+
+special3.p {
+    top: 59px;
+    left: 1838px;
+    width: 742px;
+}
+
+special4 {
+    position: absolute;
+    display: block;
+    top: 140px;
+    left: 2467px;
+    width: 129px;
+    height: 6px;
+    background-color: #ffffff;
+}
+
+special2.f {
+    top: 1095px;
+    left: 290px;
+    width: 1774px;
+    height: 12px;
+}
+
+special3.f {
+    top: 1079px;
+    left: 290px;
+    width: 1774px;
+}
+
+inner {
+    position: absolute;
+    display: flex;
+    width: 259px;
+    height: 130px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 44px;
+    font-weight: 1000;
+    left: 274px;
+}
+
+inner.lanthanides {
+    top: 790px;
+}
+
+inner.actinides {
+    top: 919px;
+}

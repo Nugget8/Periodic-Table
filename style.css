@@ -190,7 +190,7 @@ appearance.filler {
     margin: 0px 0px 0px 1px;
 }
 
-special0 {
+lines0 {
     position: absolute;
     display: block;
     top: 409px;
@@ -198,7 +198,7 @@ special0 {
     width: max-content;
 }
 
-special1 {
+lines1 {
     position: absolute;
     display: block;
     top: 514px;
@@ -211,12 +211,12 @@ special1 {
     box-sizing: border-box;
 }
 
-div.special1 {
+div.lines1 {
     padding: 0px 4px 0px 4px;
     background-color: #ffffff;
 }
 
-special2 {
+lines2 {
     position: absolute;
     display: block;
     top: 457px;
@@ -229,7 +229,7 @@ special2 {
     box-sizing: border-box;
 }
 
-special3 {
+lines3 {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -241,39 +241,39 @@ special3 {
     font-weight: 1000;
 }
 
-special3>div {
+lines3>div {
     background-color: #ffffff;
     padding-right: 4px;
     padding-left: 4px;
 }
 
-special2.s {
+lines2.s {
     top: 204px;
     left: 32px;
     width: 226px;
     height: 64px;
 }
 
-special3.s {
+lines3.s {
     top: 188px;
     left: 32px;
     width: 226px;
 }
 
-special2.p {
+lines2.p {
     top: 75px;
     left: 1838px;
     width: 742px;
     height: 193px;
 }
 
-special3.p {
+lines3.p {
     top: 59px;
     left: 1838px;
     width: 742px;
 }
 
-special4 {
+lines4 {
     position: absolute;
     display: block;
     top: 140px;
@@ -283,14 +283,14 @@ special4 {
     background-color: #ffffff;
 }
 
-special2.f {
+lines2.f {
     top: 1095px;
     left: 290px;
     width: 1774px;
     height: 12px;
 }
 
-special3.f {
+lines3.f {
     top: 1079px;
     left: 290px;
     width: 1774px;
